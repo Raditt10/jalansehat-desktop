@@ -1,0 +1,79 @@
+name: jalansehat
+description: "Jalan Sehat - Sistem Manajemen Klinik Pratama Medina"
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.11.5
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # State Management
+  flutter_riverpod:
+
+  # Navigation
+  go_router:
+
+  # Firebase
+  firebase_core:
+  cloud_firestore:
+  firebase_auth:
+  firebase_storage:
+  google_sign_in: ^6.2.1
+
+  # AI Chatbot
+  google_generative_ai:
+
+  # HTTP
+  dio:
+
+  # Charts
+  fl_chart:
+
+  # PDF & Printing
+  pdf:
+  printing:
+
+  # Excel Export
+  excel:
+
+  # Date/Time Formatting
+  intl:
+
+  # File Handling
+  file_picker:
+
+  # Local Storage
+  shared_preferences:
+
+  # Crypto
+  crypto:
+
+  # UUID
+  uuid:
+
+  # Animations
+  animated_text_kit:
+  flutter_animate:
+
+  # Fonts
+  google_fonts:
+
+  # Window Management
+  window_manager:
+
+  # Icons
+  cupertino_icons: ^1.0.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
